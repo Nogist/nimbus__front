@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'sergio-ui';
+    src: url("../src/assets/fonts/Segoe UI.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: sergio-ui, 'sans-serif';
+    font-weight: 500;
+}
+.each-slide-effect > div, .each-slide-effect  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 100%;
+    width:100%;
+  }
+  

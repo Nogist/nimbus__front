@@ -1,0 +1,90 @@
+.charity-countdown-container{
+    background: #FFFFFF;
+    padding:70px 0px 0px;
+}
+.charity-countdown-inner-container{
+    width: 85%;
+    margin: auto;
+}
+.charity-countdown-header h1{
+    text-align: center;
+    color:   #272D4E;
+    font-size: 35px;
+    font-weight: 900;
+}
+.charity-countdown-content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 0px;
+    width: 70%;
+    margin: auto;
+}
+.charity-countdown-wrapper p{
+    font-size: 30px;
+    color: #8D8D8D;
+    font-weight: 700;
+}
+.charity-countdown-wrapper h1{
+    font-size: 70px;
+    color: #424557;
+    font-weight: 900;
+}
+.charity-countdown-wrapper{
+    text-align: center;
+}
+.charity-vertical-line{
+    height: 130px;
+    width: 1.5px;
+    background: #C4C4C4;
+}
+@media screen and (max-width:1000px) {
+    .charity-countdown-content-container{
+        width: 80%;
+    }
+    .charity-countdown-wrapper p{
+        font-size:20px;
+        color: #8D8D8D;
+        font-weight: 700;
+    }
+    .charity-countdown-wrapper h1{
+        font-size: 40px;
+        color: #424557;
+        font-weight: 900;
+    }
+    .charity-countdown-header h1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:700px) {
+    .charity-countdown-content-container{
+        width: 90%;
+    }
+    .charity-countdown-wrapper p{
+        font-size:18px;
+    }
+    .charity-countdown-wrapper h1{
+        font-size: 30px;
+    }
+    .charity-countdown-header h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:550px) {
+    .charity-countdown-content-container{
+        width: 90%;
+        padding:20px 0px;
+    }
+    .charity-countdown-wrapper p{
+        font-size:12px;
+    }
+    .charity-countdown-wrapper h1{
+        font-size: 20px;
+    }
+    .charity-countdown-header h1{
+        font-size: 18px;
+    }
+    .charity-vertical-line{
+        height: 80px;
+    }
+}
