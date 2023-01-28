@@ -4,9 +4,9 @@
   "home": "https://nimbus.com.ng",
   "private": true,
   "scripts": {
-    "dev": "node server.js",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && node server.js",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
