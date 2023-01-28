@@ -18,6 +18,6 @@ export const Data = [
     },
     {
         images: vision,
-        title:"Value Creation"
+        title:"Service"
     }
 ]
